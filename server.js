@@ -1,6 +1,6 @@
 const http = require('http');
 
-const VERSION = 'v2';
+const VERSION = 'v3';
 const port = process.env.PORT || 8080;
 
 const server = http.createServer((req, res) => {
