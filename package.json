@@ -1,0 +1,12 @@
+{
+  "name": "osc-ha-healthz-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Node.js app for testing OSC My App HA deploys when /healthz returns 404",
+  "main": "server.js",
+  "scripts": {
+    "build": "echo no build step",
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
